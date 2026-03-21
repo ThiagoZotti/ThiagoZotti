@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio | Thiago Zotti</title>
+    <meta
+      name="description"
+      content="Portfólio de Thiago Zotti, desenvolvedor focado em frontend e backend com Python."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="#inicio" class="brand">Thiago <span>Zotti</span></a>
+        <nav class="nav">
+          <a href="#inicio">Início</a>
+          <a href="#sobre">Sobre</a>
+          <a href="#projetos">Projetos</a>
+          <a href="#skills">Skills</a>
+          <a href="#contato">Contato</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="inicio" class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="tag">Desenvolvedor Web</p>
+          <h1>Eu construo experiências digitais modernas e funcionais.</h1>
+          <p class="subtitle">
+            Portfólio pessoal com foco em design limpo, performance e backend em
+            Python para transformar ideias em projetos reais.
+          </p>
+          <div class="cta-group">
+            <a href="#projetos" class="btn btn-primary">Ver projetos</a>
+            <a href="#contato" class="btn btn-ghost">Falar comigo</a>
+          </div>
+        </div>
+        <aside class="hero-card">
+          <h2>Disponível para freelas</h2>
+          <p>Landing pages, portfólios e aplicações web com Flask.</p>
+          <ul>
+            <li>Frontend responsivo</li>
+            <li>APIs em Python</li>
+            <li>Deploy e manutenção</li>
+          </ul>
+        </aside>
+      </div>
+    </main>
+
+    <section id="sobre" class="section">
+      <div class="container">
+        <h2>Sobre mim</h2>
+        <p>
+          Sou Thiago Zotti, desenvolvedor em evolução constante, apaixonado por
+          criar interfaces bonitas e funcionais. Gosto de unir criatividade com
+          lógica para entregar soluções que realmente funcionam no dia a dia.
+        </p>
+      </div>
+    </section>
+
+    <section id="projetos" class="section section-alt">
+      <div class="container">
+        <h2>Projetos em destaque</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <h3>FaeHub+</h3>
+            <p>Sistema escolar com Flask, autenticação e painel por perfil.</p>
+          </article>
+          <article class="project-card">
+            <h3>Landing Comercial</h3>
+            <p>Página de conversão com foco em velocidade e design moderno.</p>
+          </article>
+          <article class="project-card">
+            <h3>Portfólio Interativo</h3>
+            <p>Site pessoal com animações leves e integração de formulário.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skills">
+          <span>HTML5</span>
+          <span>CSS3</span>
+          <span>JavaScript</span>
+          <span>Python</span>
+          <span>Flask</span>
+          <span>Git</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="section section-alt">
+      <div class="container">
+        <h2>Contato</h2>
+        <p>Me envie uma mensagem e eu retorno em breve.</p>
+        <form id="contact-form" class="contact-form">
+          <label for="nome">Nome</label>
+          <input id="nome" name="nome" type="text" required />
+
+          <label for="email">E-mail</label>
+          <input id="email" name="email" type="email" required />
+
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+          <button type="submit" class="btn btn-primary">Enviar</button>
+          <p id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>© 2026 Thiago Zotti</p>
+        <a href="https://www.instagram.com/zotti.ts/" target="_blank" rel="noreferrer"
+          >Instagram</a
+        >
+      </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
