@@ -56,5 +56,3 @@
 * Email: tszotti.dev@gmail.com
 
 ---
-
-Se quiser, posso fazer uma versão mais moderna (com estatísticas do GitHub, animações ou tema mais minimalista).
